@@ -1,0 +1,17 @@
+/*Assignment 4
+examples-
+matchHouses(1) ➞ 6
+matchHouses(4) ➞ 21
+matchHouses(87) ➞ 436
+      6*n - (n-1)
+n=1 : 6*1 - (1-1)
+n=2   6*2 - (2-1) = 11
+n=3   6*3 - (3-1) = 16
+n=4   6*4 - (4-1) = 21
+*/
+
+function matchHouse(num){
+    return (6*num - (num-1))
+}
+matches=matchHouse(87);
+console.log (matches)
